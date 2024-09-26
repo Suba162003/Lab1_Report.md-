@@ -1,0 +1,66 @@
+# Lab 1: Introduction to Packet Tracer, Peer-to-Peer Communication, Study of Cables and Its Color Codes
+
+## Objective
+- To introduce Packet Tracer and its basic features.
+- To understand peer-to-peer communication.
+- To study different types of network cables and their color codes.
+
+## Materials Required
+- Packet Tracer software
+- Network cables (Ethernet, crossover, etc.)
+
+## Theory
+### Overview of Packet Tracer
+Cisco Packet Tracer is a network simulation tool that allows users to design, configure, and troubleshoot virtual networks. It provides a platform for learning networking concepts without the need for physical hardware.
+
+### Basics of Peer-to-Peer Communication
+Peer-to-peer (P2P) communication allows two devices to communicate directly with each other over a network. Each device can act as both a client and a server, facilitating file sharing and resource access without the need for a central server.
+
+### Color Coding Standards for Network Cables
+- **Ethernet Cables (Straight-Through)**: Typically use T568A or T568B standards. Common color codes include:
+  - Pin 1: White with Green stripes
+  - Pin 2: Green
+  - Pin 3: White with Orange stripes
+  - Pin 4: Blue
+  - Pin 5: White with Blue stripes
+  - Pin 6: Orange
+  - Pin 7: White with Brown stripes
+  - Pin 8: Brown
+
+- **Crossover Cables**: Used for direct device-to-device connections. They swap the transmit and receive pairs.
+
+## Procedure
+1. **Open Packet Tracer**:
+   - Launch the software and explore its interface, noting available tools and features.
+
+2. **Create a Simple Network**:
+   - Drag two computers and one switch onto the workspace.
+   - Connect the computers to the switch using Ethernet cables.
+
+3. **Configure IP Addresses for Peer-to-Peer Communication**:
+   - Assign the following IP addresses:
+     - Computer 1: `192.168.1.1`, Subnet Mask: `255.255.255.0`
+     - Computer 2: `192.168.1.2`, Subnet Mask: `255.255.255.0`
+   - Configure the IP settings through each computer’s desktop settings in Packet Tracer.
+
+4. **Test the Connection**:
+   - Open the Command Prompt on Computer 1 and use the ping command to test connectivity:
+     ```bash
+     ping 192.168.1.2
+     ```
+
+5. **Study Different Types of Network Cables**:
+   - Review the cable types available in Packet Tracer and note the color codes associated with each type.
+
+## Observations
+- **IP Configuration Steps**:
+  - Documented the IP addresses and subnet masks configured on each computer.
+  
+- **Ping Results**:
+  - The ping command confirmed successful communication between the two computers, indicating proper setup.
+
+- **Color Codes for Cables**:
+  - Recorded the color codes for Ethernet cables, noting the standards used.
+
+## Conclusion
+This lab introduced the foundational concepts of networking using Cisco Packet Tracer. By successfully creating a peer-to-peer network and understanding the types of cables and their color codes, the importance of these concepts in networking was highlighted. Mastering these basics is crucial for anyone pursuing a career in network administration or engineering, as they form the basis for more advanced networking topics.
